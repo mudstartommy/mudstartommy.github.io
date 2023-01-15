@@ -25,7 +25,7 @@ if (window.navigator.msPointerEnabled)
 
     return false;
     
-$window.on('mousewheel DOMMouseScroll touchmove', function(e) {
+$window.on('mousewheel DOMMouseScroll', function(e) {
     
     var deltaY = e.originalEvent.wheelDeltaY,
         detail = e.originalEvent.detail;
