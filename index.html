@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="mainPage.css" />
+    <script src="scroll.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <div id="section1">
+        <div class="container">
+            <span class="header">
+                <h4 id="sm">Hey! I'm</h4>
+                <h1 id="tommy"><b>Tom</b></h1>
+                <p id="smAbout">I'm a 14 year old programmer from the UK, specialising in: Python, HTML, CSS and C#</p>
+            </span>
+            <img src="imgs/PNGProfile-6.gif" alt="profilePicture" id="pfp">
+        </div>
+        <div id="background-wrap">
+            <div class="x1">
+                <div class="cloud"></div>
+            </div>
+        
+            <div class="x2">
+                <div class="cloud"></div>
+            </div>
+        
+            <div class="x3">
+                <div class="cloud"></div>
+            </div>
+        
+            <div class="x4">
+                <div class="cloud"></div>
+            </div>
+        
+            <div class="x5">
+                <div class="cloud"></div>
+            </div>
+        </div>
+        <div class="custom-shape-divider-bottom-1673800335">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </div>
+    <div id="section2">
+        <h1 id="proHead">My Projects</h1>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="project">
+                        <h1 class="projectName">TheDealer</h1>
+                        <p class="projectDes">TheDealer was created in early September 2021. Developed originally as fun game for some friends, TheDealer has become an official verified Discord Bot and has gained repution within the Discord Community.</p>
+                        <p id="developedWith">Developed with: Python, Docker</p>
+                        <div class="card">
+                            <img class="imgCard" src="/imgs/62e471ea27515af0b9efcacaecbb06aa.jpg">
+                            <h4 class="semiCard">Listening to</h4>
+                            <h1 class="dataCard">72,523</h1>
+                            <h4 class="typeCard">Users</h4>
+                            <a href='https://discord.com/api/oauth2/authorize?client_id=882669850944765983&permissions=2147502144&scope=bot%20applications.commands' class="buttonCard">Add to Server</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="project">
+                        <h1 class="projectName">My Porfolio</h1>
+                        <p class="projectDes">My porfolio (this website) was created in early 2023 to display some of my previous work. The website itself was developed by me. Source code from codepen.io was used.</p>
+                        <p id="developedWith">Developed with: HTML, CSS, JavaScript</p>
+                        <div class="card">
+                            <img class="imgCard" src="/imgs/Profile-3.gif">
+                            <h4 class="semiCard">Developed In</h4>
+                            <h1 class="dataCard">Only 4</h1>
+                            <h4 class="typeCard">days</h4>
+                            <a href='' class="buttonCard">Visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="project">
+                        <h1 class="projectName">Tommy's Code</h1>
+                        <p class="projectDes">During the lockdown I decided to post videos on Youtube, showing off some of my skills whilst also teaching others. Early videos were not at my current skill level.</p>
+                        <p id="developedWith"></p>
+                        <div class="card">
+                            <img class="imgCard" src="/imgs/New Project (19).png">
+                            <h4 class="semiCard">It has</h4>
+                            <h1 class="dataCard">607</h1>
+                            <h4 class="typeCard">subscribers</h4>
+                            <a href='https://www.youtube.com/@TommysCode/videos' class="buttonCard">Go to</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div> 
+    <div id="section3">
+
+    </div>
+
+    <div class="loader-wrapper">
+        <svg class="pl" viewBox="0 0 128 128" width="128px" height="128px" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="pl-grad" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="hsl(272, 63%, 52%)" />
+                    <stop offset="100%" stop-color="hsl(272, 63%, 43%)" />
+                </linearGradient>
+            </defs>
+            <circle class="pl__ring" r="56" cx="64" cy="64" fill="none" stroke="hsla(0,10%,10%,0.1)" stroke-width="16" stroke-linecap="round" />
+            <path class="pl__worm" d="M92,15.492S78.194,4.967,66.743,16.887c-17.231,17.938-28.26,96.974-28.26,96.974L119.85,59.892l-99-31.588,57.528,89.832L97.8,19.349,13.636,88.51l89.012,16.015S81.908,38.332,66.1,22.337C50.114,6.156,36,15.492,36,15.492a56,56,0,1,0,56,0Z" fill="none" stroke="url(#pl-grad)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="44 1111" stroke-dashoffset="10" />
+        </svg>
+    </div>
+
+    
+
+    <script>
+        $(window).on("load", function(){
+            setTimeout(function(){
+                $(".loader-wrapper").fadeOut("slow");
+            },3000);
+        })
+        //$(".loader-wrapper").fadeOut("slow");
+    </script>
+    <script src="counter.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
